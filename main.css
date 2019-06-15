@@ -63,8 +63,9 @@ flex-direction: column; */
 
 #content {
     position: absolute;
-    top: 40px;
+    top: 0px;
     left: 10px;
+    background: white;
 
 }
 
@@ -74,4 +75,20 @@ flex-direction: column; */
     background-color: aquamarine;
     position: relative;
 
+}
+
+.container {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    font-size: 25px;
+    z-index: 100;
+}
+
+.chat-widget {
+    color: white;
+    background-color: lightgreen;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
 }
