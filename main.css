@@ -1,0 +1,77 @@
+.breakfast {
+    max-height: 350px;
+
+    /* 
+  Margin Trick to Center
+ */
+    display: block;
+    margin: 0 auto;
+}
+
+.rounded {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+
+.hero {
+    text-align: center;
+    /* 
+  Using Flexbox
+ */
+    /* display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column; */
+}
+
+/* Two Columns */
+.two-columns {
+    background-color: lightgrey;
+    min-height: 10rem;
+}
+
+.half-width {
+    width: 50%;
+    height: 5rem;
+}
+
+.red {
+    background-color: red;
+    float: left;
+}
+
+.blue {
+    background-color: blue;
+    float: right;
+}
+
+.no-more-floats {
+    clear: both;
+}
+
+.navbar-fixed {
+    height: 25px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+#content {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+
+}
+
+.relative {
+    height: 200px;
+    width: 100%;
+    background-color: aquamarine;
+    position: relative;
+
+}
