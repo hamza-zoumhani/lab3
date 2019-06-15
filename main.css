@@ -7,7 +7,11 @@
     display: block;
     margin: 0 auto;
 }
-
+.text  {
+    position: center;
+    top: 20%;
+    left: 50px;
+}
 .rounded {
     height: 200px;
     width: 200px;
