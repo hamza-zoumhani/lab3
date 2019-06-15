@@ -1,98 +1,94 @@
 .breakfast {
     max-height: 350px;
-
+    
     /* 
-  Margin Trick to Center
- */
+      Margin Trick to Center
+     */
+
     display: block;
     margin: 0 auto;
-}
-.text  {
-    position: center;
-    top: 20%;
-    left: 50px;
-}
-.rounded {
+
+  }
+
+  .rounded {
     height: 200px;
     width: 200px;
     border-radius: 100%;
-}
+  }
 
-.hero {
+  .hero {
+    background: url(https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/cloud/cumulus-cloud.jpg);
     text-align: center;
     /* 
-  Using Flexbox
- */
-    /* display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column; */
-}
+      Using Flexbox
+     */
+     /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+  }
 
-/* Two Columns */
-.two-columns {
+  /* Two Columns */
+  .two-columns {
     background-color: lightgrey;
     min-height: 10rem;
-}
+  }
 
-.half-width {
+  .half-width {
     width: 50%;
     height: 5rem;
-}
+  }
 
-.red {
+  .red {
     background-color: red;
     float: left;
-}
+  }
 
-.blue {
+  .blue {
     background-color: blue;
     float: right;
-}
+  }
 
-.no-more-floats {
+  .no-more-floats {
     clear: both;
-}
+  }
 
-.navbar-fixed {
-    height: 25px;
-    width: 100%;
-    background-color: black;
-    color: white;
-    text-align: center;
+  .navbar-fixed {
     position: fixed;
     top: 0px;
     left: 0px;
-}
+    height: 60px;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
 
-#content {
+  /* #content {
     position: absolute;
     top: 0px;
-    left: 10px;
-    background: white;
+    left: 0px;
+  }
 
-}
-
-.relative {
-    height: 200px;
-    width: 100%;
-    background-color: aquamarine;
+  .relative {
     position: relative;
+    padding-bottom: 10rem;
+  } */
 
-}
+  /* Z index */
 
 .container {
-    position: fixed;
-    right: 0px;
-    bottom: 0px;
-    font-size: 25px;
-    z-index: 100;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  font-size: 2em;
+  z-index: 11;
 }
 
 .chat-widget {
-    color: white;
-    background-color: lightgreen;
-    padding: 15px;
-    border-radius: 5px;
-    font-weight: bold;
+  background-color: lightgreen;
+  padding: 1em;
+  border-radius: 5%;
+  color: white;
+  font-weight: 800
 }
