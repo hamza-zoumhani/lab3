@@ -10,11 +10,11 @@
 
   }
 
-  .rounded {
+.rounded {
     height: 200px;
     width: 200px;
     border-radius: 100%;
-  }
+}
 
   .hero {
     background: url(https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/cloud/cumulus-cloud.jpg);
@@ -91,4 +91,19 @@
   border-radius: 5%;
   color: white;
   font-weight: 800
+}
+
+.list {
+    color: white;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    body{
+        background-color: red;
+    }
 }
