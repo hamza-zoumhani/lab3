@@ -106,4 +106,7 @@
     body{
         background-color: red;
     }
+    .list {
+        flex-direction: column;
+    }
 }
